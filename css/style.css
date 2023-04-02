@@ -53,6 +53,32 @@ header a:hover {
     color: black;
 }
 
+/* sekcja kawiarni */
+.cafe {
+    background-image: url('../img/cafe.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+.cafe h2 {
+    color: white;
+}
+
+.single_cafe {
+    margin: 10px 0px;
+    padding: 20px;
+    background-color: #ffffffb3;
+    text-align: justify;
+    /* opacity: 0.5; */
+}
+
+.single_cafe a {
+    align-self: flex-end;
+}
+
 /* sekcja kontaktu */
 
 .contact {
