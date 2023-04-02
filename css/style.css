@@ -4,12 +4,56 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
 .flex_column_container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
+
+/* header */
+header {
+    width: 100%;
+    height: 100vh;
+    padding: 30px 20px;
+    color: white;
+    background-image: url('../img/coffee.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #000;
+    /* text-decoration: underline; */
+}
+
+header a {
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+header a:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.704);
+    color: black;
+}
+
+/* sekcja kontaktu */
 
 .contact {
     padding: 10px;
@@ -23,4 +67,14 @@
 .single_contact i {
     font-size: 50px;
     color: rgb(194, 158, 65);
+}
+
+/* sekcja mapy  */
+.map {
+    padding: 10px;
+}
+
+iframe {
+    margin-top: 10px;
+    width: 100%;
 }

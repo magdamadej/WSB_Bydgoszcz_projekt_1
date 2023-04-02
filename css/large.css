@@ -1,0 +1,8 @@
+/* 992px */
+header h1 {
+    font-size: 42px;
+}
+
+iframe {
+    max-width: 970px;
+}
