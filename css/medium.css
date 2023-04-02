@@ -10,6 +10,15 @@ header h1 {
     font-size: 38px;
 }
 
+.animation {
+    padding: 30px 50px;
+}
+
+.animation img {
+    height: 492px;
+    object-fit: cover;
+}
+
 .cafe {
     padding: 40px 20px;
 }
