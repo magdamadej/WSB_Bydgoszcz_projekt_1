@@ -1,0 +1,17 @@
+{
+    "theme_color" : "#29701a",
+    "background_color" : "#29701a",
+    "display" : "fullscreen",
+    "scope" : "/",
+    "start_url" : "/WSB_Bydgoszcz_projekt_1/",
+    "name" : "Blog o kawie",
+    "short_name" : "coffeeBlog",
+    "description" : "projekt PWA - WSB Bydgoszcz",
+    "icons" : [
+        {
+            "src" : "./img/favicon.png",
+            "sizes" : "512x512",
+            "type" : "image/png"
+        }
+    ]
+    }
